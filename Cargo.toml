@@ -1,0 +1,7 @@
+[package]
+name = "plato-relay"
+version = "0.1.0"
+edition = "2021"
+description = "Mycorrhizal I2I relay — emergent routing through trust-weighted hop chains"
+
+[dependencies]
