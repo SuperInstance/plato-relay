@@ -1,19 +1,29 @@
 # plato-relay
 
-Mycorrhizal I2I relay — messages route through emergent trust-weighted hop chains. No central routing table.
+Mycorrhizal I2I relay — emergent routing through trust-weighted agent connections.
 
-## Why
+## The Metaphor
 
-Agent-to-agent communication shouldn't need a broker. plato-relay routes messages through local trust decisions, like mycorrhizal networks in a forest. Paths emerge from trust, not configuration.
+Mycorrhizal networks connect trees underground, sharing nutrients and information. Plato Relay does the same for agents — routing messages through trust-weighted connections that emerge organically.
 
-## Usage
+## Features
 
-```rust
-use plato_relay::{Relay, Message, AgentId};
+- **Trust Routing** — Messages flow through trusted paths
+- **Emergent Topology** — Network shape emerges from agent interactions
+- **Broadcast** — Efficient multi-agent message propagation
+- **Backpressure** — Prevents flooding slow agents
 
-let mut relay = Relay::new();
-relay.register(agent_id, trust_map);
-let result = relay.deliver(Message::new(from, to, "payload"));
+## Installation
+
+```toml
+[dependencies]
+plato-relay = "0.1.0"
 ```
 
-BFS routing with nutrient metadata at each hop. Zero dependencies. `cargo add plato-relay`
+## Part of the Cocapn Fleet
+
+Powers inter-agent communication across the fleet's Instance-to-Instance protocol.
+
+## License
+
+MIT
