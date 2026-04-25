@@ -1,5 +1,8 @@
 # plato-relay
 
+[![crates.io](https://img.shields.io/crates/v/plato-relay)](https://crates.io/crates/plato-relay) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 Mycorrhizal I2I relay — emergent routing through trust-weighted agent connections.
 
 ## The Metaphor
